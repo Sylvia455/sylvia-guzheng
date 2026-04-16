@@ -35,16 +35,25 @@
         section h2 { color: #667eea; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #667eea; }
         .sheets-list { list-style: none; }
         .sheets-list li {
-            padding: 15px;
+            padding: 15px 20px;
             border-bottom: 1px solid #eee;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
         .sheets-list li:last-child { border-bottom: none; }
-        .sheet-name { font-weight: 500; }
-        .sheet-desc { color: #888; font-size: 0.9rem; }
-        .sheet-price { color: #ff6b6b; font-weight: bold; }
+        .sheet-name { font-weight: 500; font-size: 1.1rem; }
+        .sheet-desc { color: #888; font-size: 0.9rem; margin-top: 4px; }
+        .sheet-price { color: #ff6b6b; font-weight: bold; font-size: 1.1rem; }
+        .btn-buy-small {
+            background: #ff6b6b;
+            color: white;
+            padding: 6px 16px;
+            border-radius: 15px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            margin-left: 15px;
+        }
         .bundle {
             background: linear-gradient(135deg, #fff5f5 0%, #fff0f0 100%);
             border: 2px dashed #ff6b6b;
@@ -61,13 +70,7 @@
             text-decoration: none;
             margin-top: 15px;
         }
-        footer {
-            background: #333;
-            color: #aaa;
-            text-align: center;
-            padding: 25px;
-            margin-top: 30px;
-        }
+        footer { background: #333; color: #aaa; text-align: center; padding: 25px; margin-top: 30px; }
     </style>
 </head>
 <body>
@@ -84,59 +87,59 @@
     <main class="container">
         <section class="intro">
             <h2>关于曲谱</h2>
-            <p>所有曲谱均为 Sylvia 精心编配，提供纯筝版和伴奏版两种选择，标注详细指法与调号，适合古筝爱好者演奏。购买后请添加微信获取曲谱文件。</p>
+            <p>所有曲谱均为 Sylvia 精心编配，提供纯筝版和伴奏版两种选择。购买后请添加微信获取曲谱文件。</p>
         </section>
 
         <section class="sheet-list">
             <h2>曲谱列表</h2>
             <ul class="sheets-list">
                 <li>
-                    <div><span class="sheet-name">day light</span> <span class="sheet-desc">D调带伴奏版</span></div>
-                    <span class="sheet-price">¥5.99</span>
+                    <div><div class="sheet-name">day light</div><div class="sheet-desc">D调带伴奏版</div></div>
+                    <div><span class="sheet-price">¥5.99</span><a href="https://www.ifdian.net/p/c1ce0844399c11f1880252540025c377" class="btn-buy-small" target="_blank">购买</a></div>
                 </li>
                 <li>
-                    <div><span class="sheet-name">别回头</span> <span class="sheet-desc">纯筝D调</span></div>
-                    <span class="sheet-price">¥5.99</span>
+                    <div><div class="sheet-name">别回头</div><div class="sheet-desc">纯筝D调</div></div>
+                    <div><span class="sheet-price">¥5.99</span><a href="https://www.ifdian.net/p/c1ce0844399c11f1880252540025c377" class="btn-buy-small" target="_blank">购买</a></div>
                 </li>
                 <li>
-                    <div><span class="sheet-name">Lighting Moment</span> <span class="sheet-desc">D调纯筝版</span></div>
-                    <span class="sheet-price">¥5.99</span>
+                    <div><div class="sheet-name">Lighting Moment</div><div class="sheet-desc">D调纯筝版</div></div>
+                    <div><span class="sheet-price">¥5.99</span><a href="https://www.ifdian.net/p/c1ce0844399c11f1880252540025c377" class="btn-buy-small" target="_blank">购买</a></div>
                 </li>
                 <li>
-                    <div><span class="sheet-name">问你一个深奥问题</span> <span class="sheet-desc">D调纯筝版</span></div>
-                    <span class="sheet-price">¥5.99</span>
+                    <div><div class="sheet-name">问你一个深奥问题</div><div class="sheet-desc">D调纯筝版</div></div>
+                    <div><span class="sheet-price">¥5.99</span><a href="https://www.ifdian.net/p/c1ce0844399c11f1880252540025c377" class="btn-buy-small" target="_blank">购买</a></div>
                 </li>
                 <li>
-                    <div><span class="sheet-name">匿名的朋友</span> <span class="sheet-desc">G调纯筝版</span></div>
-                    <span class="sheet-price">¥5.99</span>
+                    <div><div class="sheet-name">匿名的朋友</div><div class="sheet-desc">G调纯筝版</div></div>
+                    <div><span class="sheet-price">¥5.99</span><a href="https://www.ifdian.net/p/c1ce0844399c11f1880252540025c377" class="btn-buy-small" target="_blank">购买</a></div>
                 </li>
                 <li>
-                    <div><span class="sheet-name">虚拟</span> <span class="sheet-desc">C调纯筝版</span></div>
-                    <span class="sheet-price">¥5.99</span>
+                    <div><div class="sheet-name">虚拟</div><div class="sheet-desc">C调纯筝版</div></div>
+                    <div><span class="sheet-price">¥5.99</span><a href="https://www.ifdian.net/p/c1ce0844399c11f1880252540025c377" class="btn-buy-small" target="_blank">购买</a></div>
                 </li>
                 <li>
-                    <div><span class="sheet-name">Komorebi</span> <span class="sheet-desc">G调伴奏版</span></div>
-                    <span class="sheet-price">¥5.99</span>
+                    <div><div class="sheet-name">Komorebi</div><div class="sheet-desc">G调伴奏版</div></div>
+                    <div><span class="sheet-price">¥5.99</span><a href="https://www.ifdian.net/p/c1ce0844399c11f1880252540025c377" class="btn-buy-small" target="_blank">购买</a></div>
                 </li>
                 <li>
-                    <div><span class="sheet-name">我的歌声里</span> <span class="sheet-desc">G调纯筝版</span></div>
-                    <span class="sheet-price">¥5.99</span>
+                    <div><div class="sheet-name">我的歌声里</div><div class="sheet-desc">G调纯筝版</div></div>
+                    <div><span class="sheet-price">¥5.99</span><a href="https://www.ifdian.net/p/c1ce0844399c11f1880252540025c377" class="btn-buy-small" target="_blank">购买</a></div>
                 </li>
                 <li>
-                    <div><span class="sheet-name">夜的钢琴曲</span> <span class="sheet-desc">D调纯筝版</span></div>
-                    <span class="sheet-price">¥5.99</span>
+                    <div><div class="sheet-name">夜的钢琴曲</div><div class="sheet-desc">D调纯筝版</div></div>
+                    <div><span class="sheet-price">¥5.99</span><a href="https://www.ifdian.net/p/c1ce0844399c11f1880252540025c377" class="btn-buy-small" target="_blank">购买</a></div>
                 </li>
                 <li>
-                    <div><span class="sheet-name">青花瓷</span> <span class="sheet-desc">D调欢快纯筝版</span></div>
-                    <span class="sheet-price">¥5.99</span>
+                    <div><div class="sheet-name">青花瓷</div><div class="sheet-desc">D调欢快纯筝版</div></div>
+                    <div><span class="sheet-price">¥5.99</span><a href="https://www.ifdian.net/p/c1ce0844399c11f1880252540025c377" class="btn-buy-small" target="_blank">购买</a></div>
                 </li>
                 <li>
-                    <div><span class="sheet-name">同花顺</span> <span class="sheet-desc">C调纯筝版</span></div>
-                    <span class="sheet-price">¥5.99</span>
+                    <div><div class="sheet-name">同花顺</div><div class="sheet-desc">C调纯筝版</div></div>
+                    <div><span class="sheet-price">¥5.99</span><a href="https://www.ifdian.net/p/c1ce0844399c11f1880252540025c377" class="btn-buy-small" target="_blank">购买</a></div>
                 </li>
                 <li>
-                    <div><span class="sheet-name">关键词</span> <span class="sheet-desc">D调纯筝版</span></div>
-                    <span class="sheet-price">¥5.99</span>
+                    <div><div class="sheet-name">关键词</div><div class="sheet-desc">D调纯筝版</div></div>
+                    <div><span class="sheet-price">¥5.99</span><a href="https://www.ifdian.net/p/c1ce0844399c11f1880252540025c377" class="btn-buy-small" target="_blank">购买</a></div>
                 </li>
             </ul>
         </section>
